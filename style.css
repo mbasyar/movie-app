@@ -19,14 +19,14 @@ body {
     font-size: 20px;
   }
   header {
-    margin: 0;
+    width: 100%;
   }
   .bungkus{
     margin: 0;
-    padding: 0;
+    padding: 2px;
   }
   .header-search {
-    width: auto;
+   padding: 5px;
   }
 }
 header {
@@ -45,9 +45,6 @@ header {
  color: orangered;
 }
 
-.header-search {
-  align-items: center;
-}
 .search {
   background-color: transparent;
   border: 2px solid var(--primary-color);
