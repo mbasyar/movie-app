@@ -152,38 +152,12 @@ main {
  
  
   .header-search {
-  font-size: 18px;
+  font-size: 8px;
   }
   form {
-   font-size: 10px;
+   font-size: 8px;
   }
-}
-@media screen and (max-width:345px) {
-  body {
-    margin: 0;
-    padding: 0;
-  } 
-  header {
-    width: 100vw;
-    border: 1px solid royalblue;
-    background-color: gold;
-  } 
-  .bungkus{
-    border: 1px solid red;
-    width: 50vw;
-   
-  }
-  .header-judul {
-    font-size: 18px;
-    border: 1px solid rgb(37, 199, 5);
-  }
- 
- 
-  .header-search {
-    width: 20vw;
-    background-color: rgb(17, 17, 9);
-  }
-  form {
-    border: 2px solid rgb(80, 36, 36);
+  .search::placeholder {
+    color: var(--primary-color);
   }
 }
