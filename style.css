@@ -27,18 +27,13 @@ body {
     border: 1px solid gold;
   }
   .bungkus{
-    margin: 0;
-    padding: 2px;
+    margin: auto;
     width: 80%;
-    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
   }
   .header-search {
-   width: 100%;
-   border: 2px solid rgb(0, 128, 17);
-  }
-  #form {
-    width: 100%;
-    border: 1px solid red;
+    padding: 0rem;
   }
 }
 header {
