@@ -14,26 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-@media screen and (max-width:600px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .header-judul {
-    font-size: 20px;
-  }
-  header {
-    width: 100%;
-  }
-  .bungkus{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  .header-search {
-    padding: 0rem;
-  }
-}
+
 header {
   margin: auto;
   padding: 5px;
@@ -42,7 +23,7 @@ header {
 
 .bungkus {
   margin: auto;
-  width: 82%; 
+  width: 80%; 
   display: flex;
   justify-content: space-between;
 }
@@ -62,13 +43,14 @@ header {
 }
 
 .search::placeholder {
-  color: #7378c5;
+  color: orange;
 }
 
 .search:focus {
   outline: none;
   background-color: var(--primary-color);
   color: orangered;
+  border: 2px solid orangered;
 }
 
 main {
@@ -150,4 +132,58 @@ main {
 
 .movie:hover .overview {
   transform: translateY(0);
+}
+
+@media screen and (max-width:600px) {
+  body {
+    margin: 0;
+    padding: 0;
+  } 
+  header {
+    width: 100%;
+  } 
+  .bungkus{
+    width: 90%;
+   
+  }
+  .header-judul {
+    font-size: 18px;
+  }
+ 
+ 
+  .header-search {
+  font-size: 18px;
+  }
+  form {
+   font-size: 10px;
+  }
+}
+@media screen and (max-width:345px) {
+  body {
+    margin: 0;
+    padding: 0;
+  } 
+  header {
+    width: 100vw;
+    border: 1px solid royalblue;
+    background-color: gold;
+  } 
+  .bungkus{
+    border: 1px solid red;
+    width: 50vw;
+   
+  }
+  .header-judul {
+    font-size: 18px;
+    border: 1px solid rgb(37, 199, 5);
+  }
+ 
+ 
+  .header-search {
+    width: 20vw;
+    background-color: rgb(17, 17, 9);
+  }
+  form {
+    border: 2px solid rgb(80, 36, 36);
+  }
 }
